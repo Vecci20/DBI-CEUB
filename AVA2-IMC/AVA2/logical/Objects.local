@@ -1,0 +1,5 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="6A0A6994-24BB-4F88-AF10-75F8E6B13B1A" name="FitBalance" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="512D3918-9759-0E6B-5505-6DF91DD1B956" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="D293EEBB-D9A0-2294-1C0A-1B32BF8161DB" name="Paciente" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="512D3918-9759-0E6B-5505-6DF91DD1B956" propertySourceId="" propertyTargetId=""/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6A0A6994-24BB-4F88-AF10-75F8E6B13B1A" name="FitBalance">
+<createdBy>silva.joao15</createdBy>
+<createdTime>2025-04-03 23:10:26 UTC</createdTime>
+<ownerDesignName>AVA2</ownerDesignName>
+<engineerTo>
+<item key="7216FE42-2349-1E2E-4925-A22D64AC2C3F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>FIT</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="razaoSocial" id="9846D593-463D-DB44-0A5D-F75C27F2E991">
+<createdBy>silva.joao15</createdBy>
+<createdTime>2025-04-03 23:16:13 UTC</createdTime>
+<ownerDesignName>AVA2</ownerDesignName>
+<engineerTo>
+<item key="7216FE42-2349-1E2E-4925-A22D64AC2C3F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="endereco" id="1B9F47FA-1010-C2DF-F398-4E1872A0C03D">
+<createdBy>silva.joao15</createdBy>
+<createdTime>2025-04-03 23:17:16 UTC</createdTime>
+<ownerDesignName>AVA2</ownerDesignName>
+<engineerTo>
+<item key="7216FE42-2349-1E2E-4925-A22D64AC2C3F" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefone" id="E7BC8ED1-F875-334D-AAD3-A4F1A5F5C94E">
+<createdBy>silva.joao15</createdBy>
+<createdTime>2025-04-03 23:18:22 UTC</createdTime>
+<ownerDesignName>AVA2</ownerDesignName>
+<engineerTo>
+<item key="7216FE42-2349-1E2E-4925-A22D64AC2C3F" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="contato" id="BE6012E5-AA5F-49C9-3740-2DF09D790971">
+<createdBy>silva.joao15</createdBy>
+<createdTime>2025-04-03 23:18:52 UTC</createdTime>
+<ownerDesignName>AVA2</ownerDesignName>
+<engineerTo>
+<item key="7216FE42-2349-1E2E-4925-A22D64AC2C3F" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cnpj" id="3DD59CC8-F049-740C-6A7E-B089B8C8F1CF">
+<createdBy>silva.joao15</createdBy>
+<createdTime>2025-04-03 23:19:06 UTC</createdTime>
+<ownerDesignName>AVA2</ownerDesignName>
+<engineerTo>
+<item key="7216FE42-2349-1E2E-4925-A22D64AC2C3F" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="horarioFuncionamento" id="626181EB-3351-2BB7-B391-4175CEAEE656">
+<createdBy>silva.joao15</createdBy>
+<createdTime>2025-04-03 23:20:02 UTC</createdTime>
+<ownerDesignName>AVA2</ownerDesignName>
+<engineerTo>
+<item key="7216FE42-2349-1E2E-4925-A22D64AC2C3F" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="atividade" id="8C0BEA50-F486-4438-70F4-FF80C4C9C124">
+<createdBy>silva.joao15</createdBy>
+<createdTime>2025-04-03 23:24:34 UTC</createdTime>
+<ownerDesignName>AVA2</ownerDesignName>
+<engineerTo>
+<item key="7216FE42-2349-1E2E-4925-A22D64AC2C3F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

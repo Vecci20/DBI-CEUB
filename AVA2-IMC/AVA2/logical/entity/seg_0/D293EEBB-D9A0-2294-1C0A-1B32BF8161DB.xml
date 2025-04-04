@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D293EEBB-D9A0-2294-1C0A-1B32BF8161DB" name="Paciente">
+<createdBy>silva.joao15</createdBy>
+<createdTime>2025-04-03 23:25:00 UTC</createdTime>
+<ownerDesignName>AVA2</ownerDesignName>
+<engineerTo>
+<item key="7216FE42-2349-1E2E-4925-A22D64AC2C3F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>PA</preferredAbbreviation>
+<shortName>PA</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nome" id="4E6B0832-DD8C-D7BD-7150-24BA46C748F5">
+<createdBy>silva.joao15</createdBy>
+<createdTime>2025-04-03 23:28:47 UTC</createdTime>
+<ownerDesignName>AVA2</ownerDesignName>
+<engineerTo>
+<item key="7216FE42-2349-1E2E-4925-A22D64AC2C3F" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpf" id="8BDC215C-4494-6E09-8B98-41D14995823A">
+<createdBy>silva.joao15</createdBy>
+<createdTime>2025-04-03 23:28:58 UTC</createdTime>
+<ownerDesignName>AVA2</ownerDesignName>
+<engineerTo>
+<item key="7216FE42-2349-1E2E-4925-A22D64AC2C3F" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="endereco" id="B2C84E30-4DCF-9A7B-BE77-6A811222AF57">
+<createdBy>silva.joao15</createdBy>
+<createdTime>2025-04-03 23:29:12 UTC</createdTime>
+<ownerDesignName>AVA2</ownerDesignName>
+<engineerTo>
+<item key="7216FE42-2349-1E2E-4925-A22D64AC2C3F" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dataNascimento" id="BCE33C34-8288-2445-41BB-045F317DF6D1">
+<createdBy>silva.joao15</createdBy>
+<createdTime>2025-04-03 23:29:29 UTC</createdTime>
+<ownerDesignName>AVA2</ownerDesignName>
+<engineerTo>
+<item key="7216FE42-2349-1E2E-4925-A22D64AC2C3F" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sexo" id="5029A3AD-0CBC-F9EB-C2BB-95584309A671">
+<createdBy>silva.joao15</createdBy>
+<createdTime>2025-04-03 23:29:50 UTC</createdTime>
+<ownerDesignName>AVA2</ownerDesignName>
+<engineerTo>
+<item key="7216FE42-2349-1E2E-4925-A22D64AC2C3F" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>
