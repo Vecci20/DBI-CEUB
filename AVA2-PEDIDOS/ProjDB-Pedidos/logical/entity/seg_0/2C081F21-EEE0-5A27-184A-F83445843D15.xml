@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2C081F21-EEE0-5A27-184A-F83445843D15" name="Pedidos">
+<createdBy>silva.joao15</createdBy>
+<createdTime>2025-05-09 00:29:57 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="6A4E7783-4C54-80BB-B23F-CC780A568CE6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="numeropedido" id="BB1B8B17-4D10-8240-4453-251D50BDDDFF">
+<createdBy>silva.joao15</createdBy>
+<createdTime>2025-05-09 00:36:49 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="6A4E7783-4C54-80BB-B23F-CC780A568CE6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nomeClientePedido" id="862D62DA-E12A-4196-1EB6-1ED9D3140CC7">
+<createdBy>silva.joao15</createdBy>
+<createdTime>2025-05-09 00:37:05 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="6A4E7783-4C54-80BB-B23F-CC780A568CE6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="datapedido" id="F102DA29-004E-086B-BF50-22EA3F53F2DA">
+<createdBy>silva.joao15</createdBy>
+<createdTime>2025-05-09 00:37:23 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="6A4E7783-4C54-80BB-B23F-CC780A568CE6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="horaPedido" id="2888BD81-0B0E-640D-71D2-86EBF66F0D20">
+<createdBy>silva.joao15</createdBy>
+<createdTime>2025-05-09 00:37:37 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="6A4E7783-4C54-80BB-B23F-CC780A568CE6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

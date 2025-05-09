@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2033D3D9-F9B4-3D0F-9A79-146AE7C97D75" name="ItensPedidos">
+<createdBy>silva.joao15</createdBy>
+<createdTime>2025-05-09 00:50:03 UTC</createdTime>
+<generatorID>5CFF1AB5-3B9F-96FB-4E5D-6EF60C696899</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="numeroPedido" id="30406EBA-4756-3E66-63AE-B9F37A6120DC">
+<createdBy>silva.joao15</createdBy>
+<createdTime>2025-05-09 00:50:03 UTC</createdTime>
+<generatorID>AB668441-11BE-D53B-A03A-D453A18054B9</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="codigoProduto" id="D6B4CB0A-9824-8917-7FF0-B3B71F0627D1">
+<createdBy>silva.joao15</createdBy>
+<createdTime>2025-05-09 00:50:03 UTC</createdTime>
+<generatorID>2F098432-6818-F405-331E-17CA5D5D642A</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nomeProduto" id="D0358F79-524F-36C9-C457-5746DBBB19C0">
+<createdBy>silva.joao15</createdBy>
+<createdTime>2025-05-09 00:50:03 UTC</createdTime>
+<generatorID>B8BB53D3-9FEB-8FB8-B453-504731656D6B</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="quantidadeProduto" id="6C6C4CDD-58B5-A9C6-4708-BF33D1FECEAA">
+<createdBy>silva.joao15</createdBy>
+<createdTime>2025-05-09 00:50:03 UTC</createdTime>
+<generatorID>726987B8-FA25-7A7C-76D0-7D92BBE553FB</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="desconto" id="D50E0CE6-07B2-0048-923A-704FEB5F7B61">
+<createdBy>silva.joao15</createdBy>
+<createdTime>2025-05-09 00:50:03 UTC</createdTime>
+<generatorID>26C85661-9A1B-BE67-EFA0-0632483A62A2</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="precoUnitarioProduto" id="CA9B7656-EF9A-1904-C8E2-24C069A30F6B">
+<createdBy>silva.joao15</createdBy>
+<createdTime>2025-05-09 00:50:03 UTC</createdTime>
+<generatorID>FCF780B1-EC76-1B66-2ED7-0E439FEB3B30</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ItensPedidos_ID" id="88CFE190-340C-542D-80A0-101FD1EE7F07">
+<createdBy>silva.joao15</createdBy>
+<createdTime>2025-05-09 00:50:03 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3E34A850-58B5-23D2-10FC-A2D9DBAA0A97" name="ItensPedidos_PK">
+<createdBy>silva.joao15</createdBy>
+<createdTime>2025-05-09 00:50:03 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="88CFE190-340C-542D-80A0-101FD1EE7F07"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E98FCB56-D07F-4F01-61F5-290742DA1B5D" name="Relation_5">
+<createdBy>silva.joao15</createdBy>
+<createdTime>2025-05-09 00:50:03 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Pedidos_Pedidos_ID" id="7BB1FF6E-0DB9-C98E-97F4-4E55F9B080E4">
+<createdBy>silva.joao15</createdBy>
+<createdTime>2025-05-09 00:50:03 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CCF0ABCA-E52E-8371-61EC-25FA87844B7B" referredColumn="15C5B4EF-B6FF-CA64-C9DC-C8A784EE4780"/>
+</associations>
+</Column>
+<Column name="ItensPedidos_ItensPedidos_ID" id="0923B364-E8D3-1C78-7CA5-45EA721F3DDD">
+<createdBy>silva.joao15</createdBy>
+<createdTime>2025-05-09 00:50:03 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="92533550-78CA-C810-CF53-9505A75EC736" referredColumn="88CFE190-340C-542D-80A0-101FD1EE7F07"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F22C6DF0-68E1-F2F2-5C7B-07065F2F4C84" name="Relation_5_PK">
+<createdBy>silva.joao15</createdBy>
+<createdTime>2025-05-09 00:50:03 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7BB1FF6E-0DB9-C98E-97F4-4E55F9B080E4"/>
+<colUsage columnID="0923B364-E8D3-1C78-7CA5-45EA721F3DDD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7F8AFCDE-5F45-CF98-82E1-CF02C530809C" name="Relation_5_Pedidos_FK">
+<createdBy>silva.joao15</createdBy>
+<createdTime>2025-05-09 00:50:03 UTC</createdTime>
+<generatorID>96CA2CBE-3878-7806-99DC-8E23A1BEA165</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7BB1FF6E-0DB9-C98E-97F4-4E55F9B080E4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D7A6F229-8299-FB03-B82A-BE370FE6D454" name="Relation_5_ItensPedidos_FK">
+<createdBy>silva.joao15</createdBy>
+<createdTime>2025-05-09 00:50:03 UTC</createdTime>
+<generatorID>96CA2CBE-3878-7806-99DC-8E23A1BEA165</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0923B364-E8D3-1C78-7CA5-45EA721F3DDD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

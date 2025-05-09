@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8FA27285-78EA-7EBD-5692-B9842F4D7740" name="EmailCliente">
+<createdBy>silva.joao15</createdBy>
+<createdTime>2025-05-09 00:50:03 UTC</createdTime>
+<generatorID>067CE9F3-E4A9-AEF6-F5AE-37F0CD88F1F6</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cpfCliente" id="58A549CA-3491-6C66-B34E-CDDEF640ABAD">
+<createdBy>silva.joao15</createdBy>
+<createdTime>2025-05-09 00:50:03 UTC</createdTime>
+<generatorID>3E0ACC35-8EE5-FBFF-4EC4-A84487F3136C</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="emailCliente" id="22C05648-593B-9724-E145-1F8AEA7D9EAD">
+<createdBy>silva.joao15</createdBy>
+<createdTime>2025-05-09 00:50:03 UTC</createdTime>
+<generatorID>CE985729-CB34-4DAD-B376-E06AE33A14BF</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cliente_Cliente_ID" id="AD8B7268-C78E-C54C-117F-E9B62A3A7556">
+<createdBy>silva.joao15</createdBy>
+<createdTime>2025-05-09 00:50:03 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2AC4B64D-05B8-D8C7-866E-501912F354DD" referredColumn="881EB276-40B9-F04F-FA6A-C4B1D730822D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9A312D27-7F09-0634-94F8-3EDA2680761C" name="EmailCliente_Cliente_FK">
+<createdBy>silva.joao15</createdBy>
+<createdTime>2025-05-09 00:50:03 UTC</createdTime>
+<generatorID>252C842A-496A-B044-B6DD-14794A1F40C0</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AD8B7268-C78E-C54C-117F-E9B62A3A7556"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

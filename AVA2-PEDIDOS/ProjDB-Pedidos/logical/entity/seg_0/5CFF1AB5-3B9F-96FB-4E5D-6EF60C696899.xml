@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5CFF1AB5-3B9F-96FB-4E5D-6EF60C696899" name="ItensPedidos">
+<createdBy>silva.joao15</createdBy>
+<createdTime>2025-05-09 00:38:07 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="6A4E7783-4C54-80BB-B23F-CC780A568CE6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="numeroPedido" id="AB668441-11BE-D53B-A03A-D453A18054B9">
+<createdBy>silva.joao15</createdBy>
+<createdTime>2025-05-09 00:38:07 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="6A4E7783-4C54-80BB-B23F-CC780A568CE6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigoProduto" id="2F098432-6818-F405-331E-17CA5D5D642A">
+<createdBy>silva.joao15</createdBy>
+<createdTime>2025-05-09 00:39:03 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="6A4E7783-4C54-80BB-B23F-CC780A568CE6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nomeProduto" id="B8BB53D3-9FEB-8FB8-B453-504731656D6B">
+<createdBy>silva.joao15</createdBy>
+<createdTime>2025-05-09 00:39:22 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="6A4E7783-4C54-80BB-B23F-CC780A568CE6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="quantidadeProduto" id="726987B8-FA25-7A7C-76D0-7D92BBE553FB">
+<createdBy>silva.joao15</createdBy>
+<createdTime>2025-05-09 00:39:38 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="6A4E7783-4C54-80BB-B23F-CC780A568CE6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="desconto" id="26C85661-9A1B-BE67-EFA0-0632483A62A2">
+<createdBy>silva.joao15</createdBy>
+<createdTime>2025-05-09 00:39:52 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="6A4E7783-4C54-80BB-B23F-CC780A568CE6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="precoUnitarioProduto" id="FCF780B1-EC76-1B66-2ED7-0E439FEB3B30">
+<createdBy>silva.joao15</createdBy>
+<createdTime>2025-05-09 00:40:11 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="6A4E7783-4C54-80BB-B23F-CC780A568CE6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>
